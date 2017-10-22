@@ -4,7 +4,7 @@ Query 2 Path is a so-called Store-Id program for the Squid proxy server. Store-I
 
 URLs of that nature are broken by design and not REST compliant. Query 2 Path comes to the rescue by turning query parameters into path segments.
 
-Query path is written in C, does not spawn processes and does not allocate memory at runtime. Hence it is super efficient. Normally you would not need multiple instances even for a busy Squid installation.
+Query 2 Path is written in C, does not spawn processes and does not allocate memory at runtime. Hence it is super efficient. Normally you would not need multiple instances even for a busy Squid installation.
 
 ## Restrictions
 
