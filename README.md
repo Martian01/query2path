@@ -36,9 +36,9 @@ NB: whilst unrelated to the actual query2path program, you might want to tweak t
 
 ## Testing
 
-Since a Store-Id program is a simple filter from stdin to stdout you can run a simple unit test by piping testcases into it:
+Since a Store-Id program is a simple filter from stdin to stdout you can run a simple unit test by piping test cases into it:
 
 	./query2path < testcases.txt
 
-For testing query2path in the context of Squid you need to build a debug version by setting the correponding pre-processor variable. Query2path will then log its activites to a file that is also defined in the coding.
+For testing query2path in the context of Squid you need to build a debug version by setting the corresponding pre-processor variable. Query2path will then log its activities to a file that is also defined in the coding.
 
